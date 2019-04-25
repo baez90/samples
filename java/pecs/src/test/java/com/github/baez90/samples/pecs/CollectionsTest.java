@@ -2,8 +2,10 @@ package com.github.baez90.samples.pecs;
 
 import com.github.baez90.samples.pecs.model.Manager;
 import com.github.baez90.samples.pecs.model.Person;
+import com.github.baez90.samples.pecs.model.ProjectLead;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,8 +19,9 @@ public class CollectionsTest {
     @Test
     public void testCollectionsCopy() {
         List<Manager> managers = List.of(
-                new Manager("Bugs", "Bunny"),
                 new Manager("Duffy", "Duck"),
+                new ProjectLead("Bugs", "Bunny"),
+                new Manager("Tasmanian", "Devil"),
                 new Manager("Carl", "Coyote")
         );
 
@@ -30,6 +33,8 @@ public class CollectionsTest {
         // works because of PECS
         // signature: Collections.copy(dest, src)
         copy(managers, persons);
+
+        assertEquals(4, persons.size());
     }
 
     @Test
