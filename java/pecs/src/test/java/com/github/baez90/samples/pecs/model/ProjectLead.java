@@ -1,7 +1,12 @@
 package com.github.baez90.samples.pecs.model;
 
-import lombok.NonNull;
+import lombok.*;
+import lombok.experimental.Accessors;
 
+@Getter
+@Setter
+@Accessors(fluent = true)
+@EqualsAndHashCode(callSuper = true)
 public class ProjectLead extends Manager {
     private int managedProjects;
 

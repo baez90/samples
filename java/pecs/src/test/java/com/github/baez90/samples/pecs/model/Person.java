@@ -7,6 +7,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Accessors(fluent = true)
 @RequiredArgsConstructor
+@EqualsAndHashCode
 public abstract class Person {
     @NonNull
     private String firstName;
