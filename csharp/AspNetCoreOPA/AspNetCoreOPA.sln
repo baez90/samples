@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOPA", "AspNetCoreOPA\AspNetCoreOPA.csproj", "{33AD6A66-C8FB-474A-8F13-FC17899B14BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPA.Client", "OPA.Client\OPA.Client.csproj", "{A6C9D75C-7AA1-43C8-ACF4-E7EC6CF657F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33AD6A66-C8FB-474A-8F13-FC17899B14BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD6A66-C8FB-474A-8F13-FC17899B14BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD6A66-C8FB-474A-8F13-FC17899B14BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD6A66-C8FB-474A-8F13-FC17899B14BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C9D75C-7AA1-43C8-ACF4-E7EC6CF657F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C9D75C-7AA1-43C8-ACF4-E7EC6CF657F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C9D75C-7AA1-43C8-ACF4-E7EC6CF657F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C9D75C-7AA1-43C8-ACF4-E7EC6CF657F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
